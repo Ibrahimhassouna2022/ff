@@ -1,0 +1,93 @@
+.navgation{
+background-color:whitesmoke ;
+}
+.a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    margin:0px 10px ;
+
+}
+a:link{
+  background-color: cadetblue;
+}
+ 
+a:hover{
+    background-color: yellow;
+}
+a:active{
+    background-color: aqua;
+}
+a:focus{
+    color:black;
+    background-color: black;
+}
+#link4{
+    float: right;
+
+}
+*{
+    margin:0px; 
+    border-radius:15px ;
+}
+
+.Exbox{
+text-align: center;
+
+}
+.head-h2{
+    background-color: darkslategrey;
+    padding: 15px;
+    color: white;
+    margin-bottom: 20px;
+}     
+ .art1{
+    margin-bottom: 50px;
+
+ }
+ #title-1{
+    color: white;
+    background-color: blue;
+    padding: 15px  ;
+    width: 25%;
+    margin:0px auto ;
+ }
+ #lec1{
+    padding-top: 15px;
+    height: 100px;
+    border-bottom-left-radius:0px   ;
+    border-bottom-right-radius:0px ;
+    
+    background-color: darkslategrey;
+    color: white;
+    width: 200px;
+   
+
+
+}
+ #art2{
+border: 1px solid black;
+ /* width: 30; */
+margin:40px ;
+display: inline-block;
+
+ }
+ #p1{
+    padding: 15px ;
+ }
+#link1{
+   color: white;
+    background-color: red;
+    text-decoration: none;
+    width: 5%;
+    padding: 10px;   
+    display: block;
+    width: 60%;
+    margin:0 auto 5px;
+
+}
+footer{
+    background-color: gray;
+    height: 200px;
+}

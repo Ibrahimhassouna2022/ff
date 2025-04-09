@@ -1,0 +1,41 @@
+COLOR:#333333
+HARPER JACOBS
+COMMUNITY MANAGER
+-----------
+COLOR:#d1ddd3
+EXPERTISE
+SOCIAL MEDIA
+OPTIMIZATION
+CONTENT
+RESEARCH
+COPYWRITING
+AUDIENCE
+ENGAGEMENT
+EDUCATION
+MASTER OR ARTS
+Columbia University
+2010 - 2012
+BACHELOR OF ARTS
+Dartmouth College
+2006 - 2010
+CONTACT
+315.555.1234
+HELLO@HARPERJ.COM
+SKYPE/HJACOBS
+------------
+COLOR:#ffffff
+PROFILE
+Write an engaging profile about yourself here. Make sure to highlight your skills and your experiences that complement the position you're applying to. Donec at sapien a ligula de condimentum lobor tis. Phasellus id urna nisl. Nam nec tellus bibendum, placerat elit id, commodo lorem sed sit amet felis sollicitudin metus.
+EXPERIENCE
+POSITION TITLE HERE
+Company Here / 2012 - Present
+Describe your responsibilities and achievements here. Donec at sapien a 
+ligula condimentum lobortis. Phasellus id urna nisl. Nam nec tellus
+bibendum, placerat elit id, commodo lorem. Sed nec id sit amet felis 
+sollicitudin metus placerat fermentum vitae sit amet elit. Lorem ipsum dolor
+sit amet morbi dignissim sollicitudin ante. Phasellus in odio sollicitudin,
+cursus metus id commodo lorem sed sollicitudin. Nam nec tellus bibendum,
+placerat elit id, commodo lorem.
+POSITION TITLE HERE
+Company Here/ 2011 - 2012
+Describe your responsibilities and achievements here. Donec at sapien a ligula condimentum lobortis. Phasellus id urna nisl. Nam nec tellus bibendum, placerat elit id, commodo lorem. Sed nec id sit amet felis sollicitudin metus placerat fermentum vitae sit amet elit. Lorem ipsum dolor sit amet morbi dignissim sollicitudin ante. Phasellus in odio sollicitudin, cursus metus id commodo lorem sed sollicitudin. Nam nec tellus bibendum, placerat elit id, commodo lorem.

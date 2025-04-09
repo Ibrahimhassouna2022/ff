@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+head .icon {
+    height: 5px;
+    width: 5px;
+    border-radius: 100%;
+}
+
+body {
+    background: linear-gradient(to bottom, rgb(238, 74, 14), rgb(242, 148, 114), rgb(234, 196, 182));
+    background-color: rgb(238, 74, 14);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+body .div1 {
+    background-color: rgb(250, 247, 250);
+    height: 850px;
+    width: 1300px;
+    margin:0px auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px rgb(119, 119, 119);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*head*/
+.div1 #head {
+    display: flex;
+    padding: 10px;
+    position: fixed;
+    padding-top: 20px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+#head h1 {
+    padding-left: 40px;
+}
+
+#head ul {
+    position: absolute;
+    right: 300px;
+    list-style: none;
+    display: flex;
+    padding-top: 12px;
+    gap: 30px;
+}
+
+#head ul a:hover {
+    color: rgb(238, 74, 14);
+}
+
+#head ul a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+}
+
+/*Section 1*/
+#hero {
+    display: grid;
+    padding: 40px;
+    padding-top: 90px;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    grid-template-areas: "image mostRight "
+        "extraDiv mostRight "
+}
+
+#hero .div2 {
+    grid-area: image;
+}
+
+#hero .div2 img {
+    height: 300px;
+    width: 700px;
+    object-fit: cover;
+}
+
+#hero .extraDiv {
+    grid-area: extraDiv;
+    display: flex;
+    gap: 50px;
+}
+
+#hero .div3 {
+    font-size: 25px;
+}
+
+#hero .div4 p {
+    opacity: 0.8;
+}
+
+#hero .div4 button {
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    color: black;
+    letter-spacing: 2px;
+    background-color: rgb(238, 74, 14);
+    border: solid rgb(119, 119, 119) 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#hero.div5 {
+    grid-area: mostRight;
+    background-color: rgb(8, 8, 8);
+    width: 400px;
+    height: 300px;
+}
+
+hr {
+    color: rgb(238, 226, 226);
+    width: 350px;
+}
+
+#hero .div5 h3 {
+    color: rgb(181, 89, 56);
+    font-size: 25px;
+}
+
+/*section 2*/
+#sec2 {
+    display: flex;
+    gap: 100px;
+    padding: 40px;
+}
+
+#sec2 img {
+    height: 130px;
+    width: 100px;
+}
+
+#sec2 div img :hover {
+    flex-grow: 2;
+}
+
+#sec2 h3 {
+    color: rgb(181, 89, 56);
+    font-size: 20px;
+}
+
+#sec2 h5 {
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+#sec2 p {
+    opacity: 0.7;
+    padding-top: 5px;
+}
+
+#sec2 .div6 {
+    display: flex;
+    gap: 20px;
+}
+
+#sec2 .div7 {
+    display: flex;
+    gap: 20px;
+}
+
+#sec2 .div8 {
+    display: flex;
+    gap: 20px;
+}

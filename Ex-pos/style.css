@@ -1,0 +1,20 @@
+body{
+height: 8850px;
+
+}
+
+div{
+    height: 1000%;
+    background-color: aquamarine;
+    border: red solid 5px;
+}
+.head2{
+    position: sticky;
+    right: 245px;
+    top: 50px;
+    color: blueviolet;
+    font-size: 60px;
+}
+.pa{
+    white-space: nowrap;
+}

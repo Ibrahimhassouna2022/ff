@@ -1,0 +1,49 @@
+#id1{
+ text-align: center;
+ background-color: blue;
+ color: white;
+ width: 50%;
+ margin: 0px auto;
+ border-radius: 5%;   
+ padding: 25px;
+}
+#but{
+    background-color: blue;
+    color: white;
+  
+}
+.container{
+    /* border: 3px solid red; */
+    text-align: center;
+    width: 40%;
+    margin: 20px auto; 
+    float: left;
+ 
+
+
+}
+.one{
+    
+}
+.two{
+ 
+ white-space: pre-line;
+
+}
+.c2{
+    text-align: center;
+    width: 40%;
+    margin: 30px auto; 
+    float: right;
+    
+}
+img{
+    border-radius  :50% ;
+  
+    height:150px;
+
+
+}
+div{
+    /* border: 5px solid red; */
+}

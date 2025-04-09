@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #F5F5F5;
+}
+
+.div1 {
+    width: 1300px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f1f1f1;
+}
+.c1{
+    width: 70vw;
+    margin: 0px auto; 
+}
+ 
+.main-header { 
+    display: flex; 
+    color: white;
+    margin: 50px auto; 
+
+
+
+}
+
+.logo {
+    width: 50%; 
+    margin: 0px auto;
+    padding-top: 35px; 
+}
+
+.logo h1 {
+    font-size: 3rem;
+    font-weight: bold;
+ 
+}
+
+nav {
+    width: 50%;
+    margin: 0px auto;
+    padding-top: 35px; 
+ }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+nav ul li {
+    display: inline; 
+    text-align: center;
+ }
+
+nav ul li a {
+    text-decoration: none; 
+    font-size: 1.6rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #c48e36;
+}
+
+
+/*Section 1*/
+.hero {
+     display: grid; 
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    grid-template-areas: "image mostRight "
+        "extraDiv mostRight"; 
+}
+
+.hero .div2 {
+    grid-area: image;
+    background-color: #c48e36;
+    width: 80%;
+}
+
+.hero .div2 img {
+    height: 300px;
+    width: 600px;
+    object-fit: cover;
+}
+
+.hero .extraDiv {
+    grid-area: extraDiv;
+    display: flex;
+    gap: 50px;
+}
+
+.hero .div3 {
+    font-size: 25px;
+}
+
+.hero .div4 p {
+    opacity: 0.8;
+}
+
+.hero .div4 button {
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    color: black;
+    letter-spacing: 2px;
+    background-color: rgb(238, 74, 14);
+    border: solid rgb(119, 119, 119) 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero .mostRight {
+    grid-area: mostRight;
+    background-color: #435d78; 
+}
+
+hr {
+    color: rgb(238, 226, 226);
+    width: 350px;
+}
+
+.hero .div5 h3 {
+    color: rgb(181, 89, 56);
+    font-size: 25px;
+}
+
+/*section 2*/
+#sec2 {
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 1;
+    grid-template-areas: "div6 div7 div8";
+    /* display: flex;
+    gap: 100px; */
+    padding: 40px 0px;
+}
+.div6{
+    grid-area: div6;
+}
+.div7{
+    grid-area: div7;
+}
+.div8{
+    grid-area: div8;
+}
+.div6,
+.div7,
+.div8 {
+    display: flex;
+    gap: 20px;
+}
+
+#sec2 img {
+    height: 130px;
+    width: 100px;
+}
+
+#sec2 div img :hover {
+    flex-grow: 2;
+}
+
+#sec2 h3 {
+    color: rgb(181, 89, 56);
+    font-size: 20px;
+}
+
+#sec2 h5 {
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+#sec2 p {
+    opacity: 0.7;
+    padding-top: 5px;
+}

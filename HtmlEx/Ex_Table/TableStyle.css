@@ -1,0 +1,16 @@
+ 
+table{
+background-color: aqua;
+border-spacing: 0 ;
+border-collapse:    separate;
+text-align: left;
+
+/* border-collapse:collapse ; */
+}
+th{
+    background-color: gold;
+    height: 40px;
+    vertical-align: bottom;
+   
+}
+

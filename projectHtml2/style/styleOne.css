@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+
+.main-header {
+    background-color: black;
+    padding: 10px 20px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+
+}
+
+.title {
+    /* background-color: brown; */
+    margin: auto;
+    margin-left: 80px;
+    width: 50%;
+}
+
+.navigation {
+    width: 50%;
+    display: inline-block;
+    /* background-color: rgb(127, 242, 255); */
+    height: 40%;
+    margin: auto;
+    margin-right: 60px;
+
+
+}
+
+.listnav {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    padding: 0px;
+    justify-content: end;
+}
+
+.listnav li {
+    margin: 0px 15px;
+}
+
+.listnav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.listnav li a:hover {
+    text-decoration: underline;
+}
+
+.sec1 {
+    background-image: url("../Images/img8.jpg");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    text-align: center;
+    padding: 200px 20px 300px;
+}
+
+.sec1 h2 {
+    font-size: 40px;
+    margin: 3px;
+}
+
+.sec1 h2 span {
+    color: rgb(243, 186, 79);
+}
+
+.sec1 p {
+    margin: 4px;
+    font-size: 20px;
+}
+
+.sec1 .btn-aboutOur {
+    display: inline-block;
+    width: 10%;
+    padding: 12px;
+    margin: 6px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+
+.sec2 {
+    display: flex;
+}
+
+.sec2 img,
+.textContent {
+    display: inline-block;
+    width: 50%;
+}
+
+.textContent {
+    text-align: center;
+    background-color: black;
+    display: inline-block;
+    height: 60vh;
+    width: 50vw;
+    padding: 80px;
+    margin-bottom: 0px;
+}
+
+.sec3 {
+    display: flex;
+
+}
+
+.ImagesIcon1,
+.ImagesIcon2,
+.ImagesIcon3 {
+    color: black;
+    width: 35%;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.par2 {
+    margin: 15px;
+    padding: 0px;
+}
+
+i {
+    margin-top: 40px;
+}
+
+footer {
+    background-color: rgb(54, 51, 51);
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    padding-top: 35px;
+}
+
+/* --------------------------About Us------------------------ */
+.descripion {
+    display: flex;
+    align-content: space-around;
+    height: 50vh;
+    width: 100%;
+    padding: 5px;
+    padding-left: 5px;
+
+}
+
+.description-text,
+.descripion img {
+    width: 50%;
+    margin: 20px;
+    height: 50vh;
+    color: rgba(0, 0, 0, 0.998);
+}
+
+.descripion img {
+    height: 300px;
+    width: 350px;
+    border-radius: 50%;
+    margin: 10px 0px 20px 20px;
+}
+
+.description-text h2 {
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+.GuestsSay {
+    background-image: url(../Images/img11.jpg);
+    background-repeat: none;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.GuestsSay h2 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+}
+
+.GuestsSay div {
+    background-color: orange;
+    /* margin: 32px; */
+    display: flex;
+    width: 70vw;
+    height: 120px;
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+.first_message img,
+.secand_message img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 12px;
+
+
+}
+
+.GuestsSay div p {
+    /* margin-top:0px; */
+    text-align: left;
+    text-align-last: left;
+    margin: 30px 10px;
+    height: 100px;
+    width: 55vw;
+
+}
+
+#contact_form {
+    height: 80vh;
+    text-align: justify;
+}
+
+.contact_text {
+    margin-left: 100px;
+    color: black;
+    font-size: 40px;
+
+}
+
+#contact_form form {
+    color: black;
+    font-size: 20px;
+    margin-left: 100px;
+
+}
+
+#contact_form form input  {
+    margin: 10px;
+    height: 40px;
+    width: 80vw;
+}
+#contact_form form #message{
+    height: 200px;
+    width: 800px;
+}
+
+.socialmediaContact {
+    background-color: rgba(62, 59, 59, 0.756);
+    width: 100%;
+    height: 36vh;
+    display: flex;
+}
+
+.socialmediaContact div {
+    text-align: center;
+    width: 30%;
+    margin-left: 95px;
+
+}
+.submitbtn{
+    margin: auto;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    width: 100px;
+ }

@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f7f96a4;
+}
+
+.list>li {
+  display: inline;
+  margin: 10px;
+}
+
+.list a {
+  color: white;
+  text-decoration: none;
+
+}
+
+.item5 {
+  display: inline-block;
+  padding: 6px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.navgationBare {
+  float: right;
+  margin: 25px;
+}
+ 
+.title {
+  float: left;
+  margin: 25px;
+  color: white;
+}
+
+.main1 {
+  clear: both;
+}
+
+#hero {
+  color: white;
+  float: left;
+  padding: 10px;
+  width: 30%;
+  margin: 20px;
+  margin-left: 100px;
+
+}
+
+.seePricing {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: rgb(88, 225, 14);
+  color: white;
+  width: 130px;
+  height: 30px;
+  margin-top: 15px;
+
+}
+
+#sideBareForm {
+  margin-right: 100px;
+  padding: 25px;
+  height: 350px;
+  width: 35%;
+  background-color: white;
+  float: right;
+  text-align: center;
+
+}
+
+#sideBareForm form input {
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
+  outline: none;
+  width: 200px;
+  height: 30px;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+#sideBareForm .btn_register {
+  display: inline-block;
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgb(11, 93, 207);
+  color: white;
+}

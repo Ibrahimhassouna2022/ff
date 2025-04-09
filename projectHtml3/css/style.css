@@ -1,0 +1,177 @@
+:root {
+    font-size: 65.3%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-header {
+    background-color: rgb(71, 41, 21);
+    display: flex;
+    height: 20vh;
+    align-items: center;
+ 
+}
+
+.main-header>ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 60%;
+    /* align-content: ; */
+    align-items: center;
+
+}
+
+li a {
+    text-decoration: none;
+    font-size: 2.3rem;
+}
+
+.title {
+    font-family: cursive;
+    width: 40%;
+    margin-left: 4rem;
+    
+}
+
+.sec1 {
+    background-color: rgb(158, 136, 117);
+    display: flex;
+    height: 40vh;
+    justify-content: space-around;
+}
+
+.myPictureProfile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 15px;
+     
+}
+
+.aboutMe {
+    margin: 25px;
+    
+}
+
+.aboutMe>h2 {
+    font-size: 2.5rem;
+}
+
+.aboutMe h6 {
+    font-size: 1.5rem;
+}
+
+.sec-Who {
+    background-color: rgb(180, 197, 222);
+    padding: 5px;
+    height: 28vh;
+    text-align: center;
+
+}
+
+.sec-Who h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.9rem;
+    color: rgb(32, 98, 98);
+
+}
+
+.sec-Who p {
+    font-size: 1.7rem;
+    margin: 5px;
+    color: rgb(32, 98, 98);
+
+
+}
+
+.sec3 {
+    background-color: rgb(46, 79, 112);
+    height: 70vh;
+}
+
+.sec-education {
+    margin-left: 15rem;
+}
+
+.sec-education h2 {
+    padding-top: 15px;
+    font-style: oblique;
+    font-size: 2.5rem;
+}
+
+.sec-education p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 12px;
+}
+
+.sec4 {
+    background-color: rgb(189, 203, 251);
+    height: 40vh;
+}
+
+.sec-skils {
+    margin-left: 15rem;
+
+}
+
+.sec-skils h2 {
+    color: rgba(0, 0, 0, 0.901);
+    padding-top: 15px;
+    font-style: oblique;
+    font-size: 2.5rem;
+}
+
+.list-skils {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 60%;
+    margin: 4rem;
+    
+}
+.list-skils li{
+    color: rgb(53, 43, 43);
+    font-size: 1.5rem;
+}
+.progress {
+    width: 70%;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #F2EFE7;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
+.sub-progress {
+    width: 47%;
+    height: 100%;
+    background-color: #3451d1;
+    border-radius: 10px 0 0 10px;
+}
+.lastfooter{
+    background-color: rgb(71, 41, 21);
+    /* display: flex; */
+    height: 30vh;
+}
+.lastfooter h3{
+    padding-top: 28px;
+    font-style: oblique;
+    font-size: 2.5rem;    
+}   
+
+.contactMe{
+    margin-left: 16rem;
+    padding: 12px;
+    
+}

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    text-align: center;
+font-size: 25px;
+}
+button{
+    font-size: 20px;
+
+    border: white solid 2px;
+    position: fixed;
+    background-color: transparent;
+    color: white;
+    height: 50px;
+  
+    animation: myMOVEButton 3S infinite;
+}
+@keyframes myMOVEButton{
+    0%{border-radius: 5px;  padding: 10px 20PX;}
+   
+    50%{border-radius: 20%;padding: 3px 10PX;}
+    100%{border-radius: 5px;padding: 10px 20PX;}
+}
+.b1{
+    left: 30px;
+}
+.b2{
+    right: 30px;
+}
+img{
+    width: 100%;
+     
+}
+
+h1{
+    position: fixed;
+    color: white;
+    width: 100%;
+    top: 50%;
+    bottom: 50px;
+    font-size: 30px;
+    animation: myH1 1.5s infinite;
+}
+@keyframes  myH1{
+    0%{transform: translate(0,0);}
+    50%{transform: translate(0,100px);}
+    100%{transform: translate(0,0);}
+}
+.buble{ 
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: -50px;
+    width: 100%;
+    animation:buble 5s infinite; 
+}
+@keyframes buble{
+    0%{transform: translate(0,0);}
+    100%{transform: translate(0,-700px);opacity: 0;}
+}
+.p{
+    width: 50px;
+    margin: 10px;
+}
+ 
